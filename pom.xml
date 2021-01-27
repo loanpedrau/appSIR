@@ -87,7 +87,16 @@
 		 	<version>3.14.0</version>
 		</plugin>
 		
+		<plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-changelog-plugin</artifactId> 
+		</plugin>
+		
 	</plugins>
   </reporting>
+  <scm>
+	<connection>scm:git:git@github.com:loanpedrau/appSIR.git/repository1/monappli-web</connection>
+	<url>git@github.com:loanpedrau/appSIR.git</url>
+  </scm>
  
 </project>
